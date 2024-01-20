@@ -1,4 +1,5 @@
 // To get the profit for the share market
+// Imagine ChildWorks
 
 #include<stdio.h>
 int main() {
