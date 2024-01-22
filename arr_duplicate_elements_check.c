@@ -1,4 +1,5 @@
 // To find whether an array is duplicate array or not
+// Imagine ChildWorks
 
 #include<stdio.h>
 
