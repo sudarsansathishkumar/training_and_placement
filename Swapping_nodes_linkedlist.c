@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 void addlast();
-void swap(int, int);
+void swap(int);
 void display();
 
 struct node {
@@ -24,7 +24,7 @@ int main() {
     }while(k > n);
     printf("The list before swapping:\n");
     display();
-    swap(k, n);
+    swap(k);
     printf("The list after swapping:\n");
     display();
     return 0;
@@ -59,7 +59,7 @@ void display() {
     }
 }
 
-void swap(int k, int n) {
+void swap(int k) {
     struct node *p1, *p2;
     int i = 0;
     p1 = head;
